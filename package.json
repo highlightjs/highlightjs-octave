@@ -1,0 +1,41 @@
+{
+  "name": "highlightjs-octave",
+  "version": "0.1.0",
+  "description": "Highlight.js syntax definition for GNU Octave",
+  "main": "dist/highlightjs-octave.cjs.js",
+  "module": "dist/highlightjs-vuew.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && rollup --config",
+    "clean": "rimraf dist package-lock.json",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apjanke/highlightjs-octave.git"
+  },
+  "keywords": [
+    "highlight",
+    "highlightjs",
+    "highlight.js",
+    "hljs",
+    "octave",
+    "octave.js"
+  ],
+  "author": "Andrew Janke <floss@apjanke.net> (https://apjanke.net)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/apjanke/highlightjs-octave/issues"
+  },
+  "homepage": "https://github.com/apjanke/highlightjs-octave",
+  "dependencies": {},
+  "devDependencies": {
+    "highlight.js": "^10.1.0",
+    "mocha": "^6.2.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.27.1",
+    "should": "^13.2.3"
+  }
+}
