@@ -32,3 +32,7 @@ hljs.initHighlightingOnLoad();
 ![BSD 3-Clause License](https://img.shields.io/github/license/highlightjs/highlightjs-vue?logo=License%20BSD-3-Clause)
 
 BSD 3-Clause License.
+
+## Credits
+
+Packaging stuff based on the [`highlightjs-view` package](https://github.com/highlightjs/highlightjs-vue).
