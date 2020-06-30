@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apjanke/highlightjs-octave.git"
+    "url": "git+https://github.com/highlightjs/highlightjs-octave.git"
   },
   "keywords": [
     "highlight",
@@ -27,9 +27,9 @@
   "author": "Andrew Janke <floss@apjanke.net> (https://apjanke.net)",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/apjanke/highlightjs-octave/issues"
+    "url": "https://github.com/highlightjs/highlightjs-octave/issues"
   },
-  "homepage": "https://github.com/apjanke/highlightjs-octave",
+  "homepage": "https://github.com/highlightjs/highlightjs-octave",
   "dependencies": {},
   "devDependencies": {
     "highlight.js": "^10.1.0",
