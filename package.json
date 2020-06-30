@@ -2,6 +2,16 @@
   "name": "highlightjs-octave",
   "version": "0.1.0",
   "description": "Highlight.js syntax definition for GNU Octave",
+  "author": "Andrew Janke <floss@apjanke.net> (https://apjanke.net)",
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/highlightjs/highlightjs-octave",
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlightjs-octave/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highlightjs/highlightjs-octave.git"
+  },
   "main": "dist/highlightjs-octave.cjs.js",
   "module": "dist/highlightjs-vuew.esm.js",
   "files": [
@@ -12,10 +22,6 @@
     "clean": "rimraf dist package-lock.json",
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/highlightjs/highlightjs-octave.git"
-  },
   "keywords": [
     "highlight",
     "highlightjs",
@@ -24,12 +30,6 @@
     "octave",
     "octave.js"
   ],
-  "author": "Andrew Janke <floss@apjanke.net> (https://apjanke.net)",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/highlightjs/highlightjs-octave/issues"
-  },
-  "homepage": "https://github.com/highlightjs/highlightjs-octave",
   "dependencies": {},
   "devDependencies": {
     "highlight.js": "^10.1.0",
