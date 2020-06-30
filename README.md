@@ -35,4 +35,8 @@ BSD 3-Clause License.
 
 ## Credits
 
-Packaging stuff based on the [`highlightjs-view` package](https://github.com/highlightjs/highlightjs-vue).
+Highlightjs-octave is written by [Andrew Janke](https://apjanke.net).
+
+Code is largely based on the [Highlight.js Matlab language definition](https://github.com/highlightjs/highlight.js/blob/master/src/languages/matlab.js) by Denis Bardadym <bardadymchik@gmail.com>, Eugene Nizhibitsky <nizhibitsky@ya.ru>, and Egor Rogov <e.rogov@postgrespro.ru>.
+
+Packaging stuff is based on the [`highlightjs-view` package](https://github.com/highlightjs/highlightjs-vue).
