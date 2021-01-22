@@ -9,7 +9,7 @@ Category: scientific
 
 /*
   Formal syntax is incomplete, but published at:
-  https://octave.org/doc/v5.1.0/Grammar-and-Parser.html
+  https://octave.org/doc/v6.1.0/Grammar-and-Parser.html
 */
 export default function(hljs) {
 
