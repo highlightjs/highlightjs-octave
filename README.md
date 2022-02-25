@@ -13,7 +13,7 @@ If you're not using a build system and just want to embed this in your webpage:
 <script src="https://cdn.jsdelivr.net/npm/highlightjs-octave"></script>
 <script>
   hljs.registerLanguage("octave", window.hljsDefineVue);
-  hljs.initHighlightingOnLoad();
+  hljs.highlightAll();
 </script>
 ```
 
@@ -24,7 +24,7 @@ var hljs = require("highlightjs");
 var hljsDefineVue = require("highlightjs-octave");
 
 hljsDefineVue(hljs);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 ## License
