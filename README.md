@@ -4,7 +4,7 @@ This is a Highlight.js syntax definition for [GNU Octave](https://octave.org).
 
 ## Usage
 
-Simply include the `highlight.js` script package in your webpage or Node app, load up this module, and apply it to `hljs`.
+Include the `highlight.js` script package in your web page or Node app, load up this module, and apply it to `hljs`.
 
 If you're not using a build system and just want to embed this in your webpage:
 
@@ -17,7 +17,7 @@ If you're not using a build system and just want to embed this in your webpage:
 </script>
 ```
 
-If you're using webpack / rollup / browserify / node:
+If you're using webpack/rollup/browserify/Node.js:
 
 ```javascript
 var hljs = require("highlightjs");
