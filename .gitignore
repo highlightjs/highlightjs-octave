@@ -117,4 +117,5 @@ package-lock.json
 
 # Unignore dist in case user global ~/.gitignore is ignoring it.
 # dist *should* be checked in to the repo for Highlight.js language definitions!
+# See: https://github.com/highlightjs/highlight.js/blob/main/extra/3RD_PARTY_QUICK_START.md
 !dist/
