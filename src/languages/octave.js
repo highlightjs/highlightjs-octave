@@ -23,6 +23,12 @@ export default function(hljs) {
 
   return {
     name: 'Octave',
+    /* 
+    Disable autodetection because it conflicts with matlab autodetection.
+    This breaks highlight.js tests, and Matlab should probably take precedence anyway because it's
+    in more common use.
+    */
+    disableAutodetect: true,
     keywords: {
       keyword:
         '__FILE__ __LINE__ arguments break case catch classdef continue do else elseif end ' +
