@@ -6,24 +6,27 @@ This is a Highlight.js syntax definition for [GNU Octave](https://octave.org).
 
 Include the `highlight.js` script package in your web page or Node app, load up this module, and apply it to `hljs`.
 
-If you're not using a build system and just want to embed this in your webpage:
+### Static website or simple usage
+
+If you're not using a build system and just want to embed this in your webpage, load the module after loading Highlight.js. You'll use the minified version found in the dist directory. This module is just a CDN build of the language, so it will register itself as the JavaScript is loaded.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/highlightjs"></script>
-<script src="https://cdn.jsdelivr.net/npm/highlightjs-octave"></script>
+<script type="text/javascript" src="/path/to/highlight.min.js"></script>
+<script type="text/javascript" src="/path/to/octave.min.js"></script>
 <script>
-  hljs.registerLanguage("octave", window.hljsDefineVue);
   hljs.highlightAll();
 </script>
 ```
 
-If you're using webpack/rollup/browserify/Node.js:
+### With Node or another build system
+
+If you're using Node.js/Webpack/Rollup/Browserify/etc, require the language module, and then register it with Highlight.js:
 
 ```javascript
 var hljs = require("highlightjs");
-var hljsDefineVue = require("highlightjs-octave");
+var hljsOctave = require("highlightjs-octave");
 
-hljsDefineVue(hljs);
+hljs.registerLanguage("octave", hljsOctave);
 hljs.highlightAll();
 ```
 
