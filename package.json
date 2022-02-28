@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-octave",
-  "version": "0.1.0",
+  "version": "0.2.0-prerelease",
   "description": "Highlight.js syntax definition for GNU Octave",
   "author": "Andrew Janke <floss@apjanke.net> (https://apjanke.net)",
   "license": "BSD-3-Clause",
@@ -32,11 +32,11 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "highlight.js": "^10.1.0",
-    "mocha": "^6.2.0",
-    "rimraf": "^3.0.0",
-    "rollup": "^1.27.1",
-    "rollup-plugin-terser": "^5.1.2",
+    "highlight.js": "^11.4.0",
+    "mocha": "^9.2.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.68.0",
+    "rollup-plugin-terser": "^7.0.2",
     "should": "^13.2.3"
   }
 }

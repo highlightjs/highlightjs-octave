@@ -27,6 +27,10 @@ hljsDefineVue(hljs);
 hljs.highlightAll();
 ```
 
+## Requirements
+
+Highlightjs-octave works with the latest major version of Highlight.js (as described in the [Highlight.js Security Policy](https://github.com/highlightjs/highlight.js/security/policy)). As of February 2022, this is Highlight.js version 11.x.
+
 ## License
 
 ![BSD 3-Clause License](https://img.shields.io/github/license/highlightjs/highlightjs-vue?logo=License%20BSD-3-Clause)
