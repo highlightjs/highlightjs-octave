@@ -80,7 +80,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -102,3 +101,21 @@ dist
 
 # TernJS port file
 .tern-port
+
+# The lib/ dir is binary artifacts created during a local module build?
+lib/
+
+# IDEs and Editors
+.idea/
+.vscode/
+
+# Custom highlightjs-octave stuff
+
+# package-lock.json wasn't in our repo when 0.1.0 was originally published.
+# I'm leaving it out because I don't know what best practice for NPM modules is.
+package-lock.json
+
+# Unignore dist in case user global ~/.gitignore is ignoring it.
+# dist *should* be checked in to the repo for Highlight.js language definitions!
+# See: https://github.com/highlightjs/highlight.js/blob/main/extra/3RD_PARTY_QUICK_START.md
+!dist/

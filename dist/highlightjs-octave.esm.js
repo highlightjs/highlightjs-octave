@@ -11,7 +11,7 @@ Category: scientific
   Formal syntax is incomplete, but published at:
   https://octave.org/doc/v6.1.0/Grammar-and-Parser.html
 */
-export default function(hljs) {
+function octave(hljs) {
 
   var TRANSPOSE_RE = '(\'|\\.\')+';
   var TRANSPOSE = {
@@ -117,3 +117,5 @@ export default function(hljs) {
     ]
   };
 }
+
+export { octave as default };
